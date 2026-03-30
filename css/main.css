@@ -36,3 +36,55 @@ li {
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.popup {
+    opacity: 0;
+    background-color: #c4c4c4e6;
+    width: 500px;
+    height: auto;
+    border: 2px solid #000000;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #000000;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: 1s fadeIn linear forwards;
+    animation-delay: 10s;
+}
+
+.text {
+    font-family: "museo", serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: "museo", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 2px #000000;
+    background-color: #c4c4c4e6;
+    transition: scale 0.3s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
