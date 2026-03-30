@@ -1,11 +1,38 @@
 /* Place CSS styles here */
+body {
+    background-image: url(../img/concrete.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+
 h1 {
-    font-family: "brooklyn-heritage-script", sans-serif;
-    font-weight: 400;
+    color:#000000;
+    font-family: "museo", sans-serif;
+    font-weight: 600;
+    font-size: 6em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 p {
     font-family: "museo", serif;
     font-weight: 300;
-    font-style: normal;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+li {
+    font-family: "museo", serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
 }
