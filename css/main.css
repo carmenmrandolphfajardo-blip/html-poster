@@ -157,6 +157,34 @@ li {
     margin-left: 40%;
 }
 
+.background {
+    opacity: 100%;
+    width: 80%;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: 1s flash linear forwards;
+    animation-iteration-count: 5;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+img  {
+    width: 100%;
+    height: auto;
+}
+
 .popup {
     opacity: 0;
     background-color: #c4c4c4e6;
@@ -171,7 +199,16 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
     animation: 1s fadeIn linear forwards;
-    animation-delay: 10s;
+    animation-delay: 5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
 }
 
 .text {
@@ -200,11 +237,3 @@ button:hover {
     transform: scale(1.2);
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
