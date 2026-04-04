@@ -1,7 +1,7 @@
 /* Place CSS styles here */
 body {
     background-color: #c3c2e8;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .blip-a {
@@ -135,8 +135,18 @@ h1 {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.subtitle {
+    font-family: "museo", serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
 }
 
 p {
@@ -144,17 +154,20 @@ p {
     font-weight: 300;
     font-size: 1.5em;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
-li {
+h2 {
     font-family: "museo", serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 1.5em;
     text-align: left;
-    margin-left: 40%;
+    margin-left: 20%;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 a {
@@ -232,17 +245,20 @@ img  {
 .text {
     font-family: "museo", serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #c4c4c4e6;
 }
 
 button {
     font-family: "museo", sans-serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 10px 20px;
     border: 2px solid #000000;
     box-shadow: 2px 2px 2px #000000;
