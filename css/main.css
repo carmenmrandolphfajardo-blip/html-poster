@@ -5,7 +5,7 @@ body {
 }
 
 .blip-a {
-    background-color: #4737b1;
+    background-color: #6f63bf;
     mix-blend-mode: multiply;
     width: 200px;
     height: 200px;
@@ -46,7 +46,7 @@ body {
 }
 
 .blip-b {
-    background-color: #4737b1;
+    background-color: #6f63bf;
     mix-blend-mode: multiply;
     width: 200px;
     height: 200px;
@@ -87,7 +87,7 @@ body {
 }
 
 .blip-c {
-    background-color: #4737b1;
+    background-color: #6f63bf;
     mix-blend-mode: multiply;
     width: 200px;
     height: 200px;
@@ -127,8 +127,48 @@ body {
     }
 }
 
+.blip-d {
+    background-color: #6f63bf;
+    mix-blend-mode: multiply;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(100px);
+    position: fixed;
+    top: 150px;
+    left: 900px;
+    animation: alternate-reverse 20s moveAroundD linear infinite;
+}
+
+@keyframes moveAroundD {
+    0% {
+        left: 900px;
+        top: 150px;
+        transform: scale(1);
+    }
+    25% {
+        left: 1100px;
+        top: 250px;
+        transform: scale(1.5);
+    }
+    50% {
+        left: 900px;
+        top: 350px;
+        transform: scale(2);
+    }
+    75% {
+        left: 700px;
+        top: 250px;
+        transform: scale(1.5);
+    }
+    100% {
+        left: 900px;
+        top: 150px;
+        transform: scale(1);
+    }
+}
+
 h1 {
-    color:#000000;
     font-family: "museo", sans-serif;
     font-weight: 600;
     font-size: 6em;
@@ -171,7 +211,7 @@ h2 {
 }
 
 a {
-    color: #4737b1e6;
+    color: #3e38b9;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
