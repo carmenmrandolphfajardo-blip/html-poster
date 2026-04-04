@@ -5,7 +5,7 @@ body {
 }
 
 .blip-a {
-    background-color: #4737b1e6;
+    background-color: #4737b1;
     mix-blend-mode: multiply;
     width: 200px;
     height: 200px;
@@ -46,7 +46,7 @@ body {
 }
 
 .blip-b {
-    background-color: #4737b1e6;
+    background-color: #4737b1;
     mix-blend-mode: multiply;
     width: 200px;
     height: 200px;
@@ -87,7 +87,7 @@ body {
 }
 
 .blip-c {
-    background-color: #4737b1e6;
+    background-color: #4737b1;
     mix-blend-mode: multiply;
     width: 200px;
     height: 200px;
@@ -218,14 +218,14 @@ img  {
 
 .popup {
     opacity: 0;
-    background-color: #c4c4c4e6;
+    background-color: #b9b9b9;
     width: 500px;
     height: auto;
     border: 2px solid #000000;
     padding: 20px;
     box-shadow: 5px 5px 10px #000000;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -252,7 +252,6 @@ img  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c4c4c4e6;
 }
 
 button {
@@ -262,7 +261,7 @@ button {
     padding: 10px 20px;
     border: 2px solid #000000;
     box-shadow: 2px 2px 2px #000000;
-    background-color: #c4c4c4e6;
+    background-color: #b9b9b9;
     transition: scale 0.3s ease-in-out;
 }
 
